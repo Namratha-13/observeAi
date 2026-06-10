@@ -1,9 +1,32 @@
-node_modules/
-.venv/
+# Secrets — NEVER commit these
 .env
+*.key
+*.pem
+
+# Python
 __pycache__/
-.pytest_cache/
+*.py[cod]
+.venv/
+.uv/
 dist/
-build/
-coverage/
-.vscode/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+.next/
+
+# Docker
+.docker/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
